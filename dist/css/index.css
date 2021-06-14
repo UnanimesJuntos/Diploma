@@ -1,0 +1,98 @@
+@page {
+    margin: 5mm 0mm 5mm 0mm; /* change the margins as you want them to be. */
+}
+
+@media print {
+    .collage_bg {
+        -webkit-print-color-adjust: exact; 
+    }
+}
+
+#imagen{
+    height: 100%;
+    width: 100%;
+}
+
+#diploma{
+    border-color: black;
+    height: 700px;
+    width: 1100px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: none;
+}
+
+#titulo {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1, h2, h4, p {
+    color: black;
+}
+
+#logo{
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    height: 20%;
+}
+
+#foto{
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    height: 20%;
+}
+
+#firma1{
+    float: left;
+    height: 20%;
+}
+
+.imgWrapper4, .imgWrapper3 {
+    font-size: 0;
+    text-align: center;
+}
+.imgWrapper4 .imgResponsiva,
+.imgWrapper3 .imgResponsiva {
+    display: inline-block;
+    font-size: inherit;
+}
+.imgWrapper4 .imgResponsiva {width: 25%; max-width: 345px;}
+.imgWrapper3 .imgResponsiva {width: 33.3%; max-width: 345px;}
+
+.imgResponsiva img {
+    height: auto;
+    width: 100%;
+}
+
+#nombre{
+    position: absolute;
+    top: 47%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+}
+
+#iglesia{
+    position: absolute;
+    top: 53%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+}
+
+#lugar{
+    position: absolute;
+    top: 59%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+}
+
+#foto{
+    height: 170px;
+    width: 170px;
+    position: absolute;
+    top: 55%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
